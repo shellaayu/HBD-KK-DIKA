@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ulang Tahun</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    /* Latar belakang gradien blue sky */
+    body {
+      background: linear-gradient(to bottom, #87CEFA, #B0E0E6); /* Langit biru */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .slide {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .slide.active {
+      display: flex;
+    }
+    h1 {
+      color: #000; /* Teks hitam */
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #000; /* Teks hitam */
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      max-width: 90%;
+      line-height: 1.6;
+    }
+    .nav-buttons {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+
+     <!-- Slide 1 -->
+     <div class="slide active">
+        <h1>Hari ini adalah hari spesial yang selalu aku nantikan.</h1>
+        <p>Aku sangat bersyukur atas kehadiranmu di hidupku.</p>
+        <p>Kamu adalah sumber kebahagiaan dan kekuatan untukku.💙</p>
+      </div>
+
+       <!-- Slide 2 -->
+    <div class="slide">
+        <p>Semoga di usia baru ini, kamu selalu diberi kesehatan, kesuksesan, 
+            dan kebahagiaan yang melimpah.</p>
+        <p>Jangan lupa, aku selalu ada di sampingmu, 
+            mendukung dan mencintaimu tanpa batas.🥰</p>
+      </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <h1>Haii Kak Dika syg!💙</h1>
+      <p>Ini ulang tahun pertama kamu bareng aku yaa 😁</p>
+      <p>Maaf nggak bisa romantis seperti pacar-pacar kamu sebelumnya.</p>
+      <p>Tapi aku pengen treat kamu dengan cara aku sendiri 😚</p>
+    </div>
+
+
+    <!-- Slide 4 -->
+    <div class="slide">
+      <h1>Terima Kasih</h1>
+      <p>Pertemuan kemarin memang singkat, tapi sangat bermakna bagi aku.</p>
+      <p>Terima kasih sudah hadir di hidup aku dan ngertiin bocil satu ini 💙</p>
+    </div>
+
+     <!-- Slide 5 -->
+     <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>Memang aku bukan cinta pertama kamu...</p>
+        <p>Tapi aku mau kok usahain jadi yang terbaik asal sama kakak terus 💙</p>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="slide">
+        <h1>Next ada beberapa Pesan buat sayang 💙</h1>
+        <p>Dibaca pelan-pelan ya sayang</p>
+        <p>Bacanya pakai hati 💙</p>
+      </div>
+
+      <!-- Slide 7 -->
+      <div class="slide">
+        <h1>SIAP?</h1>
+      </div>
+
+       <!-- Slide 8 -->
+       <div class="slide">
+        <h1>OKE MULAI</h1>
+      </div>
+
+      <!-- Slide 9 -->
+      <div class="slide">
+        <h1>WARNING ⚠</h1>
+        <p>Bacanya jgn senyum-senyum sendiri yaa syg hahahha</p>
+      </div>
+
+     <!-- Slide 10 -->
+     <div class="slide">
+         <h1>OKE LANJUT</h1>
+      </div>
+
+    <!-- Slide 11 -->
+    <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>“Sayang, aku nggak pernah tahu kalau cinta bisa seindah ini sampai aku bertemu kamu.</p>
+        <p>Kehadiranmu adalah anugerah yang selalu aku syukuri.”</p>
+      </div>
+
+      <!-- Slide 12 -->
+    <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>“Aku nggak minta apa-apa, cuma mau kita terus saling melengkapi,</p>
+        <p> saling menguatkan, dan saling menjaga apa yang sudah kita punya.”</p>
+      </div>
+
+      <!-- Slide 13 -->
+    <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>“Aku tahu aku bukan orang yang sempurna,</p>
+        <p> tapi aku akan selalu berusaha untuk jadi yang terbaik buat kamu.</p>
+        <p> Karena aku tahu, kamu itu hadiah terindah yang Allah berikan untuk aku.”</p>
+      </div>
+
+      <!-- Slide 14 -->
+    <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>“Mungkin aku bukan yang pertama dalam hidupmu,</p>
+        <p> tapi aku ingin jadi yang terakhir dan yang terpenting.</p>
+        <p> Karena hatiku, sepenuhnya milikmu.”</p>
+      </div>
+
+    <!-- Slide 15 -->
+    <div class="slide">
+      <h1>Doa untuk Kakak</h1>
+      <p>Semoga yang terbaik selalu menyertai kamu.</p>
+      <p>Stay humble, sabar, dan tetap rendah hati ya sayang 💙</p>
+      <p>Semoga semua yang kamu impikan tercapai,</p>
+      <p>semoga kamu selalu sehat, bahagia, dan selalu dikelilingi kebaikan.</p>
+      <p>Jangan rusak hubungan ini dengan ego ya, jadiin shella yang terakhir 💙</p>
+    </div>
+
+    <!-- Slide 16 -->
+    <div class="slide">
+        <h1>Pesan untuk Sayang 💙</h1>
+        <p>“Aku ingin hubungan kita jadi perjalanan panjang yang penuh kenangan indah.</p>
+        <p> Yuk kita terus saling mencintai, saling menghargai,</p>
+        <p> dan terus bersama melewati semuanya.”</p>
+      </div>
+
+       <!-- Slide 17 -->
+    <div class="slide">
+        <h1>Sayang 💙</h1>
+        <p>“Aku nggak tahu apa yang akan terjadi di masa depan,</p>
+        <p>tapi satu hal yang aku tahu: aku nggak pernah mau kehilangan kamu.</p>
+        <p>Kamu adalah rumah bagi hatiku.”</p>
+      </div>
+
+    <!-- Slide 18 -->
+    <div class="slide">
+        <h1>HAPPY BIRHTDAY YA SAYANG 💙</h1>
+        <p>From : Shellaayu 💙</p>
+      </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button id="prev">Sebelumnya</button>
+    <button id="next">Berikutnya</button>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    const prevBtn = document.getElementById("prev");
+    const nextBtn = document.getElementById("next");
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+      });
+    }
+
+    prevBtn.addEventListener("click", () => {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    });
+
+    nextBtn.addEventListener("click", () => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    });
+  </script>
+</body>
+</html>
